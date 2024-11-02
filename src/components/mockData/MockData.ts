@@ -307,9 +307,9 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: 'TXN001',
-        dateTime: 'October 28 2024',
+        dateTime: '',
         description: 'Cash Out For Delivery',
-        status: 'Success',
+        status: 'Pending',
         amount_usd: 700000.0,
         account_no: '****1987'
       },
