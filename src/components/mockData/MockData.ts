@@ -281,5 +281,54 @@ export const mockAccounts: Account[] = [
         account_no: '****7645'
       }
     ]
+  },
+  {
+    account_id: 'ACC003',
+    holder: {
+      firstName: 'Brent M McKinney',
+      lastName: '',
+      mobileNumber: '',
+      email: 'b@gmail.com',
+      jointNames: '',
+      profileImg: '',
+      username: 'Mrbrent123',
+      password: 'WinnersBMC$$'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 700000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: 'TXN001',
+        dateTime: 'October 28 2024',
+        description: 'Cash Out For Delivery',
+        status: 'Success',
+        amount_usd: 700000.0,
+        account_no: '****1987'
+      },
+      {
+        transaction_id: 'TXN002',
+        dateTime: 'August 3 2024',
+        description: 'Bonus Credit',
+        status: 'Success',
+        amount_usd: 450000.0,
+        account_no: '****6543'
+      },
+      {
+        transaction_id: 'TXN003',
+        dateTime: 'July 25 2024',
+        description: 'Lottery Credit',
+        status: 'Success',
+        amount_usd: 250000.0,
+        account_no: '****3278'
+      },
+    ]
   }
 ];
