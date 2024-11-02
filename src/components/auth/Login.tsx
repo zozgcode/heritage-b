@@ -39,7 +39,7 @@ export default function Login() {
         <div className="p-[8px_13px] bg-[#0f2652] text-[1.125em] text-[#ffffff66]">Sign In</div>
         <div className="bg-white mx-auto border p-5 pb-7">
           <div className="relative border border-[#63666b] flex items-center justify-between h-[46px] p-2">
-            <span className="text-[1em]">Personal Accounts</span>
+            <span className="text-[1em]">Cashier Accounts</span>
             <button disabled className="border-l border-[#63666b] flex items-center justify-center w-[44px] h-[46px] absolute right-0">
               <IoMdArrowDropdown className="!text-[30px]" />
             </button>
