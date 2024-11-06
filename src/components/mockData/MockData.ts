@@ -296,7 +296,7 @@ export const mockAccounts: Account[] = [
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 700000.0
+      balance_usd: 1500000.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -310,11 +310,19 @@ export const mockAccounts: Account[] = [
         dateTime: '',
         description: 'Cash Out For Delivery',
         status: 'Pending',
-        amount_usd: 700000.0,
+        amount_usd: 1500000.0,
         account_no: '****1987'
       },
       {
         transaction_id: 'TXN002',
+        dateTime: 'November 5 2024',
+        description: 'ACH Credit',
+        status: 'Success',
+        amount_usd: 800000.0,
+        account_no: '****1987'
+      },
+      {
+        transaction_id: 'TXN003',
         dateTime: 'August 3 2024',
         description: 'Bonus Credit',
         status: 'Success',
@@ -322,7 +330,7 @@ export const mockAccounts: Account[] = [
         account_no: '****6543'
       },
       {
-        transaction_id: 'TXN003',
+        transaction_id: 'TXN004',
         dateTime: 'July 25 2024',
         description: 'Lottery Credit',
         status: 'Success',
