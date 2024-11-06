@@ -328,7 +328,328 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: 250000.0,
         account_no: '****3278'
+      }
+    ]
+  },
+  {
+    account_id: 'ACC004',
+    holder: {
+      firstName: 'Antonio Dani',
+      lastName: 'Rodriguez',
+      mobileNumber: '+1-406-605-3415',
+      email: 'tonyrodz746@gmail.com',
+      jointNames: '',
+      profileImg: '',
+      username: 'DeeAntoni1$',
+      password: 'KatrinaBlue1$'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 167357.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: 'TXN001',
+        dateTime: 'November 2 2024',
+        description: 'Credit from Prime Opticals',
+        status: 'Success',
+        amount_usd: 11000.0,
+        account_no: '****1987'
       },
+      {
+        transaction_id: 'TXN002',
+        dateTime: 'November 1 2024',
+        description: 'Debit from AIRBNB',
+        status: 'Pending',
+        amount_usd: -4000.0,
+        account_no: '****6543'
+      },
+      {
+        transaction_id: 'TXN003',
+        dateTime: 'October 28 2024',
+        description: 'Debit from Innovate Tech',
+        status: 'Success',
+        amount_usd: -14000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN004',
+        dateTime: 'October 25 2024',
+        description: 'Credit from Coinbase',
+        status: 'Success',
+        amount_usd: 18000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN005',
+        dateTime: 'October 20 2024',
+        description: 'Credit from Coinbase',
+        status: 'Success',
+        amount_usd: 4000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN006',
+        dateTime: 'October 18 2024',
+        description: 'Bill Payment Authorization',
+        status: 'Success',
+        amount_usd: 5000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN007',
+        dateTime: 'October 16 2024',
+        description: 'Bill Payment Authorization',
+        status: 'Success',
+        amount_usd: 30000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN008',
+        dateTime: 'October 9 2024',
+        description: 'Withdrawal from Point of Sale',
+        status: 'Success',
+        amount_usd: -50000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN009',
+        dateTime: 'October 1 2024',
+        description: 'Credit from Global LLC',
+        status: 'Success',
+        amount_usd: 95000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN010',
+        dateTime: 'September 28 2024',
+        description: 'Bill Payment Authorization',
+        status: 'Success',
+        amount_usd: 12000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN011',
+        dateTime: 'September 25 2024',
+        description: 'Debit from Booking.com',
+        status: 'Success',
+        amount_usd: -5000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN012',
+        dateTime: 'September 23 2024',
+        description: 'Withdrawal from Point of Sale',
+        status: 'Success',
+        amount_usd: -10000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN013',
+        dateTime: 'September 23 2024',
+        description: 'Debit from Point of Sale',
+        status: 'Success',
+        amount_usd: -1500.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN014',
+        dateTime: 'September 23 2024',
+        description: 'Debit from Point of Sale',
+        status: 'Success',
+        amount_usd: -1000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN015',
+        dateTime: 'September 23 2024',
+        description: 'Point of Sale Gucci',
+        status: 'Success',
+        amount_usd: -2500.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN016',
+        dateTime: 'September 20 2024',
+        description: 'Credit from Innovate Tech',
+        status: 'Success',
+        amount_usd: 19000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN017',
+        dateTime: 'September 20 2024',
+        description: 'Debit From Coinbase Inv',
+        status: 'Success',
+        amount_usd: -50000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN018',
+        dateTime: 'September 15 2024',
+        description: 'Bill Payment Authorization',
+        status: 'Success',
+        amount_usd: -7500.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN019',
+        dateTime: 'September 10 2024',
+        description: 'Apple Bill Payment',
+        status: 'Success',
+        amount_usd: -15.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN020',
+        dateTime: 'September 10 2024',
+        description: 'Credit from Global Holdings',
+        status: 'Success',
+        amount_usd: 12000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN021',
+        dateTime: 'September 10 2024',
+        description: 'Bank Transfer to Customer',
+        status: 'Success',
+        amount_usd: -10000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN022',
+        dateTime: 'September 9 2024',
+        description: 'Bank Transfer to Customer',
+        status: 'Success',
+        amount_usd: -9000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN023',
+        dateTime: 'September 1 2024',
+        description: 'Credit from Global LLC',
+        status: 'Success',
+        amount_usd: 85000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN024',
+        dateTime: 'September 1 2024',
+        description: 'Credit from Global LLC',
+        status: 'Success',
+        amount_usd: 85000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN025',
+        dateTime: 'August 25 2024',
+        description: 'Credit from Coinbase Investment',
+        status: 'Success',
+        amount_usd: 25000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN026',
+        dateTime: 'August 24 2024',
+        description: 'Credit from Coinbase investment',
+        status: 'Success',
+        amount_usd: 20000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN027',
+        dateTime: 'August 24 2024',
+        description: 'Innovate Tech Credit',
+        status: 'Success',
+        amount_usd: 14000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN028',
+        dateTime: 'August 21 2024',
+        description: 'Bill Paymemt Authorization',
+        status: 'Success',
+        amount_usd: -9000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN029',
+        dateTime: 'August 15 2024',
+        description: 'Withdrawal from Point of Sale',
+        status: 'Success',
+        amount_usd: -15000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN030',
+        dateTime: 'August 9 2024',
+        description: 'Apple Bill Payment',
+        status: 'Success',
+        amount_usd: -15.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN031',
+        dateTime: 'August 7 2024',
+        description: 'Bank transfer to customer',
+        status: 'Success',
+        amount_usd: -10000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN032',
+        dateTime: 'August 7 2024',
+        description: 'Bank transfer to customer',
+        status: 'Success',
+        amount_usd: -15000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN033',
+        dateTime: 'August 7 2024',
+        description: 'Debit from coinbase Investment',
+        status: 'Success',
+        amount_usd: -29000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN034',
+        dateTime: 'August 6 2024',
+        description: 'Bill Payment Authorization',
+        status: 'Success',
+        amount_usd: -6000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN035',
+        dateTime: 'August 2 2024',
+        description: 'Debit from Booking.com',
+        status: 'Success',
+        amount_usd: -3500.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN036',
+        dateTime: 'August 1 2024',
+        description: 'Credit from Global LLC',
+        status: 'Success',
+        amount_usd: 80000.0,
+        account_no: '****3278'
+      },
+      {
+        transaction_id: 'TXN036',
+        dateTime: 'June 5 2024',
+        description: 'Account Opening',
+        status: 'Success',
+        amount_usd: -5000.0,
+        account_no: '****3278'
+      }
     ]
   }
 ];
