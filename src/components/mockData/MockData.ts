@@ -342,18 +342,20 @@ export const mockAccounts: Account[] = [
   {
     account_id: 'ACC004',
     holder: {
-      firstName: 'Antonio Dani',
-      lastName: 'Rodriguez',
-      mobileNumber: '+1-406-605-3415',
-      email: 'tonyrodz746@gmail.com',
+      firstName: 'Jamez Rodriguez',
+      lastName: '',
+      mobileNumber: '+1-**-***-****',
+      email: 'j@gmail.com',
       jointNames: '',
       profileImg: '',
-      username: 'DeeAntoni1$',
-      password: 'KatrinaBlue1$'
+      username: 'd',
+      password: 'd'
+      // username: 'DeeAntoni1$',
+      // password: 'KatrinaBlue1$'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 167357.0
+      balance_usd: 232357.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -364,6 +366,30 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: 'TXN001',
+        dateTime: 'November 26 2024',
+        description: 'Seasonal Bonus Credit Global LLC',
+        status: 'Success',
+        amount_usd: 65000.0,
+        account_no: '****1987'
+      },
+      {
+        transaction_id: 'TXN002',
+        dateTime: 'November 18 2024',
+        description: 'Withdrawal From Point Of Sale',
+        status: 'Success',
+        amount_usd: -16500.0,
+        account_no: '****1987'
+      },
+      {
+        transaction_id: 'TXN003',
+        dateTime: 'November 13 2024',
+        description: 'Bill Payment Authorization',
+        status: 'Success',
+        amount_usd: -8000.0,
+        account_no: '****1987'
+      },
+      {
+        transaction_id: 'TXN001487',
         dateTime: 'November 2 2024',
         description: 'Credit from Prime Opticals',
         status: 'Success',
